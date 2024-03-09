@@ -32,8 +32,9 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/354818"
-    "https://civitai.com/api/download/models/344487"
+    # "https://civitai.com/api/download/models/354818" # CyberRealistic Classic 3.1
+    "https://civitai.com/api/download/models/354818?type=Model&format=SafeTensor&size=pruned&fp=fp32" # CyberRealistic Classic 3.1 fp32
+    "https://civitai.com/api/download/models/344487" # RealVisXL 4
 )
 
 LORA_MODELS=(
